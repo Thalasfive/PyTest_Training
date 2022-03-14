@@ -1,0 +1,9 @@
+pytest -m smoke -v
+# Pytest -m[Marker] smoke[Marker name] -v[verbose]
+
+#Run body or engine tests
+# pytest -m "body or engine"
+
+#Run smoke and engine test
+# pytest -m "smoke and engine"
+
