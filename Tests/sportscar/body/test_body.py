@@ -3,11 +3,14 @@ import time
 from pytest import mark
 @mark.smoke
 @mark.body
+
 def test_body_functions_as_expected():
     assert True
+
 @mark.bumper
 def test_bumper():
     assert True
+
 @mark.windshield
 def test_windshield():
     assert True
